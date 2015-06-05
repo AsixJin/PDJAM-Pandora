@@ -142,6 +142,10 @@ public class Player : MonoBehaviour {
     {
         try
         {
+            if(power >= 0.10f)
+            {
+                holstered.GetComponent<Arrow>().setPower();
+            }
             holstered.GetComponent<Rigidbody2D>().AddForce(new Vector2(power, 0));
             holstered = null;
             arrow_draw = 0;

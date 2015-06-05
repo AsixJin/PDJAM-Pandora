@@ -10,6 +10,9 @@ TagManager:
   - needle
   - fireball
   - LoS
+  - Zom
+  - BHead
+  - Sting
   layers:
   - Default
   - TransparentFX

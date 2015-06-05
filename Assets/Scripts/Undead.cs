@@ -9,6 +9,7 @@ public class Undead : MonoBehaviour {
     private Vector3 player_Pos;
     public float speed;
     public float dist;
+    public int HP = 100;
 
 	// Use this for initialization
 	void Start () 
@@ -23,5 +24,16 @@ public class Undead : MonoBehaviour {
         dist = Vector3.Distance(player_Pos, transform.position);
         player_Pos = player.transform.position;
         transform.position = Vector3.MoveTowards(transform.position, player_Pos, speed * Time.deltaTime);
+
+        //Bruh you are so fucking through if your Health reaches zero!!!
+        if (HP <= 0)
+        {
+            Destroy(this.gameObject);
+        }
 	}
+
+    public void takeDamage(int Health)
+    {
+        HP = HP - Health;
+    }
 }

@@ -170,7 +170,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!1001 &1404408920
 Prefab:
   m_ObjectHideFlags: 0
@@ -212,48 +212,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 083f084243165ab42b9e740e1617275d, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &1589079872
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 489814, guid: 7cc08b4d8daf0c94eb13c0d8978d08f7, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 3.70000005
-      objectReference: {fileID: 0}
-    - target: {fileID: 489814, guid: 7cc08b4d8daf0c94eb13c0d8978d08f7, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -1.11000001
-      objectReference: {fileID: 0}
-    - target: {fileID: 489814, guid: 7cc08b4d8daf0c94eb13c0d8978d08f7, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 489814, guid: 7cc08b4d8daf0c94eb13c0d8978d08f7, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 489814, guid: 7cc08b4d8daf0c94eb13c0d8978d08f7, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 489814, guid: 7cc08b4d8daf0c94eb13c0d8978d08f7, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 489814, guid: 7cc08b4d8daf0c94eb13c0d8978d08f7, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 489814, guid: 7cc08b4d8daf0c94eb13c0d8978d08f7, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 7cc08b4d8daf0c94eb13c0d8978d08f7, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1910187637
 GameObject:
@@ -309,7 +267,7 @@ Transform:
   m_LocalScale: {x: .252427101, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!61 &1910187640
 BoxCollider2D:
   m_ObjectHideFlags: 0

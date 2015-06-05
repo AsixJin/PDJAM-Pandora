@@ -10,9 +10,12 @@ GameObject:
   - 4: {fileID: 425268}
   - 212: {fileID: 21274282}
   - 95: {fileID: 9555274}
+  - 61: {fileID: 6103882}
+  - 50: {fileID: 5046754}
+  - 114: {fileID: 11416510}
   m_Layer: 0
   m_Name: BHead
-  m_TagString: baddie
+  m_TagString: BHead
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,6 +32,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &5046754
+Rigidbody2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180040}
+  m_Mass: 9.99999975e-05
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_FixedAngle: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+--- !u!61 &6103882
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180040}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: .899999976, y: 1.20000005}
 --- !u!95 &9555274
 Animator:
   serializedVersion: 3
@@ -46,6 +77,20 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11416510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba15476fc8f57104ebdf73d2bb0c276a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  Timer: 0
+  HP: 20
 --- !u!212 &21274282
 SpriteRenderer:
   m_ObjectHideFlags: 1

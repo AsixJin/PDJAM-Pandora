@@ -15,7 +15,7 @@ GameObject:
   - 114: {fileID: 11428598}
   m_Layer: 0
   m_Name: UnDead
-  m_TagString: baddie
+  m_TagString: Zom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91,6 +91,7 @@ MonoBehaviour:
   rbody: {fileID: 0}
   speed: 0
   dist: 0
+  HP: 80
 --- !u!212 &21225972
 SpriteRenderer:
   m_ObjectHideFlags: 1

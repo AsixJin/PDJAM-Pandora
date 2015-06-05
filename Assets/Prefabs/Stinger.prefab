@@ -15,7 +15,7 @@ GameObject:
   - 114: {fileID: 11400262}
   m_Layer: 0
   m_Name: Stinger
-  m_TagString: baddie
+  m_TagString: Sting
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55,7 +55,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 123414}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
@@ -94,6 +94,7 @@ MonoBehaviour:
   target_Pos: {x: 0, y: 0, z: 0}
   Timer: 0
   armed: 0
+  HP: 50
   dist: 0
 --- !u!212 &21292960
 SpriteRenderer:

@@ -17,6 +17,7 @@ public class Stinger : MonoBehaviour {
     public float Timer;
     private float speed;
     public bool armed = false;
+    public int HP = 50;
     //Debug Variables
     public float dist;
 
@@ -71,7 +72,27 @@ public class Stinger : MonoBehaviour {
             anim.SetBool("isWalking", true);
         }
 
+
+        //Motherfucker you die after you have no HP.....
+        if (HP == 0)
+        {
+            Destroy(this.gameObject);
+        }
+
 	}
+
+    //Deals Damage
+    public void takeDamage(int Health)
+    {
+       if(Health == 5)
+       {
+
+       }
+       else
+       {
+           HP = HP - Health;
+       }
+    }
 
     //Creates Needle
     void ReadyNeedle()
