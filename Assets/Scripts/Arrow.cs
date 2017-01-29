@@ -4,7 +4,7 @@ using System.Collections;
 public class Arrow : MonoBehaviour {
 
     public Rigidbody2D rBody;
-    private bool fullPower = false;
+    private bool fullPower = true;
 
 	// Use this for initialization
 	void Start () 
